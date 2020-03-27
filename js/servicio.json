@@ -1,0 +1,23 @@
+{
+    "noticias":[{
+            "imagen":"img/sports2.jpg",
+            "titulo":"El mejor jugador del mundo vuelve a anotar",
+            "descripcion": "lorem ipsum",
+            "link": "https://google.com"
+            
+        },
+        {
+            "imagen":"img/sports1.jpg",
+            "titulo":"El mejor jugador del mundo le gana a Barcelona",
+            "descripcion": "lorem ipsum",
+            "link": "https://google.com"
+        },
+        {
+            "imagen":"img/sports3.jpg",
+            "titulo":"Homenaje a Alfre di Stéfano",
+            "descripcion": "lorem ipsum",
+            "link": "https://google.com"
+        }
+       
+    ]
+}
