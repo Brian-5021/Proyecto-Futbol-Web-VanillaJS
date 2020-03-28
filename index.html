@@ -111,30 +111,39 @@
             <img src="img/contact.jpg" class="card-img-top" alt="...">
           </div>
           <div class="col-md-6 col-sm-12 text-white">
-            <form>
+            <form id="formulario">
               <div class="row">
                 <div class="col-md-6 col-sm-12 my-2">
-                  <input type="text" class="form-control" placeholder="Nombre">
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                  <div id="divNombre">
+                  </div>
                 </div>
                 <div class="col-md-6 col-sm-12 my-2">
-                  <input type="text" class="form-control" placeholder="Apellido">
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                  <div id="divApellido">
+                  </div>
                 </div>
-                
                 <div class="col-md-12">
                   <input type="text" class="form-control my-2" id="asunto" placeholder="Asunto">
+                  <div id="divAsunto">
+                  </div>
                   <input type="email" class="form-control my-2" id="email" placeholder="Email">
-                  <input type="textarea" class="form-control my-2 mb-5" id="descripcion" placeholder="Descripción">
+                  <div id="divEmail">
+                  </div>
+                  <input type="textarea" class="form-control my-2" id="descripcion" placeholder="Descripción">
+                  <div id="divDescripcion" class="mb-5">
+                  </div>
                   <button type="submit" class="btn btn-primary btn-block my-2" id="enviar">Enviar</button>
                 </div>
-                
-                
               </div>
             </form>
-            
           </div>
         </div>
       </div>
 
+      <!--Modal-->
+      <div id="modalcon">
+      </div>
 
       <!--Footer-->
       <footer id="sticky-footer" class="py-4 bg-dark text-white-50">

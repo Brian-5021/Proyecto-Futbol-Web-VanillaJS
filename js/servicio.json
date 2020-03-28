@@ -17,7 +17,14 @@
             "titulo":"Homenaje a Alfre di Stéfano",
             "descripcion": "lorem ipsum",
             "link": "https://google.com"
+        },
+        {
+            "imagen":"img/sports3.jpg",
+            "titulo":"Homenaje a Alfre di Stéfano",
+            "descripcion": "lorem ipsum",
+            "link": "https://google.com"
         }
+    
        
     ]
 }
